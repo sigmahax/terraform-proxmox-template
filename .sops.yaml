@@ -1,0 +1,7 @@
+---
+creation_rules:
+  - path_regex: terraform/.*\.sops\.ya?ml
+    unencrypted_regex: "^(kind)$"
+    key_groups:
+      - age:
+          - "<age-public-key>"
