@@ -1,9 +1,9 @@
 variable "exported_core_var" {
-    type = string
-    sensitive = true
+  type      = string
+  sensitive = true
 }
 
 variable "sample_app_var" {
-    type = string
-    sensitive = false
+  type      = string
+  sensitive = false
 }
